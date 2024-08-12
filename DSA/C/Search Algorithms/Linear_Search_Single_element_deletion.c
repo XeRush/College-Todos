@@ -22,7 +22,7 @@ int main() {
             num_ele--;
             trav--;
             ele_cp = 1;
-            num_occ += 1;
+            num_occ++;
         }
         if (ele_cp == 1 ) {
             break;
