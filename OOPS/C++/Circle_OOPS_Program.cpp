@@ -8,7 +8,7 @@ class Circle {
 
     private:
     int rad;
-    float pi = 3.1415926535897932;
+    const float pi = 3.1415926535897932;
 };
 
 void Circle :: peri(int rad) {
