@@ -59,7 +59,7 @@ void Spush(int *p, int arr[]) {
 void Spop(int *p, int arr[]) {
     (*p)--;
     printf("Popped Element: %d\n", arr[*p]);
-    arr[*p] = 0; // Optional: clear the position after popping
+    arr[*p] = 0; 
 }
 
 void Sdisplay(int p, int arr[]) {
