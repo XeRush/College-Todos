@@ -22,9 +22,9 @@ int main() {
             }
 
             else if (arr[j]>arr[j+1]) {
-                int swap = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = swap;
+                arr[j] = arr[j] + arr[j+1];
+                arr[j+1] = arr[j] - arr[j+1];
+                arr[j] = arr[j] - arr[j+1];
                 k++;
                 count++;
             }
